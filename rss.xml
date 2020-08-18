@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<chanel>
+		<item>
+			<tittle>Sorte</tittle>
+			<link>http://sajtovistudenata.ict.edu.rs/21_17/sorte.html</link>
+			<description>Nove sorte u nasoj ponudi!</description>
+		</item>
+		<item>
+			<tittle>Nova galerija!</tittle>
+			<link>http://sajtovistudenata.ict.edu.rs/21_17/galerija.html</link>
+			<description>Pogledajte slike nasih jabuka!</description>
+		</item>
+		<item>
+			<tittle>Kontaktirajte nas!</tittle>
+			<link>http://sajtovistudenata.ict.edu.rs/21_17/kontakt.html</link>
+			<description>Kontaktirajte nas brzo i lako!</description>
+		</item>
+		<item>
+			<tittle>Prijavite se!</tittle>
+			<link>http://sajtovistudenata.ict.edu.rs/21_17/prijavi_se.html</link>
+			<description>Budite član naše ekipe</description>
+		</item>
+	</chanel>
+</rss>

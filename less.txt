@@ -1,0 +1,131 @@
+@braon:#6b4327;
+@zuta:#ffcf00;
+@siva:#eaebef;
+#levo {
+	width:35%;
+	ul {
+		li {
+			padding:0px 10px;
+			&:first-child {
+				border-right:1px solid @siva;
+			}
+			a {
+				color:@siva;
+			}
+		}
+	}
+}
+#pretraga {
+	width:65%;
+	text-align:right;
+}
+#tbPretraga {
+	padding:5px 8px;
+	font-size:13px;
+	border:1px solid @siva;
+	border-radius:5px 0 0 5px;
+}
+#tbDugme {
+	padding:5px 8px;
+	font-size:13px;
+	color:#eaebef;
+	border:1px solid@siva;
+	margin-left:-5px;
+	background-color:@zuta;
+	border-radius:0 5px 5px 0;
+	&:focus {
+		background-color:@braon;
+	}
+}
+#meni {
+	width:60%;
+	ul {
+		justify-content:space-around;
+		align-items:center;
+		li {
+			a {
+				padding:15px;
+				color:#000;
+				font-size:25px;
+				&:hover {
+					color:@zuta;
+				}
+			}
+		}
+	}
+	.aktivan {
+		padding-bottom:7px;
+		border-bottom:3px solid @zuta;
+		color:@zuta;
+	}
+}
+.clanak {
+	width:30%;
+	min-height:450px;
+	text-align:justify;
+	h2 {
+		text-align:center;
+	}
+	p {
+		font-size:18px;
+		min-height:150px;
+	}
+	img {
+		width:100%;
+	}
+}
+#mreze {
+	ul {
+		justify-content:space-around;
+		li {
+			a {
+				color:@siva;
+				&:hover {
+					color:@zuta;
+				}
+			}
+		}
+	}
+}
+#sitemap {
+	width:25%;
+	ul {
+		li {
+			a {
+				&:hover{
+					color:@zuta;
+				}
+				color:@siva;
+				font-size:22px;
+			}
+			padding:0px 10px;
+			&:first-child {
+				border-right:2px solid @siva;
+			}
+		}
+	}
+}
+#levo {
+	ul{
+		li{
+			a{
+				&:hover {
+					color:@zuta;
+				}
+			}
+		}
+	}
+}
+.slikaGalerija {
+	div {
+		text-align:center;
+		padding:5px;
+		color:@braon;
+		font-size:20px;
+	}
+	&:hover {
+		div {
+			font-weight: bold;
+		}
+	}
+}
